@@ -6,12 +6,12 @@
 }
 
 .maxWidthWrapper {
-  width: 65%;
-  display: inline-block;
+  position: relative;
 }
 
 .header {
   padding-bottom: 64px;
+  width: 65%;
 }
 
 .title {
@@ -28,12 +28,22 @@
 }
 
 .characterWrapper {
-  width: 35%;
-  display: inline-block;
   position: fixed;
-  top: 128px;
+  top: 15%;
+  left: 60%;
+  bottom: 5%;
   min-height: 500px;
 }
 
 .controlColumn {
+  width: 50%;
+}
+
+.greyBar{
+  background-color: hsl(195deg, 20%, 86%);
+  width: 100%;
+  height: 40%;
+  position: fixed;
+  top: 60%;
+  left: 0;
 }
